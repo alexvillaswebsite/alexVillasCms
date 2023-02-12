@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_hero_advantages_items",
+  "info": {
+    "displayName": "HeroAdvantagesItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

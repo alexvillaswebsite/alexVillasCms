@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "youtubes",
+  "info": {
+    "singularName": "youtube",
+    "pluralName": "youtubes",
+    "displayName": "YouTube",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "youtubeUrl": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}

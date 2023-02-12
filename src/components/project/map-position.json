@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_project_map_positions",
+  "info": {
+    "displayName": "MapPosition"
+  },
+  "options": {},
+  "attributes": {
+    "right": {
+      "type": "integer"
+    },
+    "bottom": {
+      "type": "integer"
+    }
+  }
+}

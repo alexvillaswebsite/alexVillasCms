@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_villa_parameters",
+  "info": {
+    "displayName": "VillaParameter"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

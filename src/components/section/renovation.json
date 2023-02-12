@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_section_renovations",
+  "info": {
+    "displayName": "Renovation"
+  },
+  "options": {},
+  "attributes": {
+    "imageBefore": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "imageAfter": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_project_property_lists",
+  "info": {
+    "displayName": "PropertyList"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "count": {
+      "type": "integer",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_project_finance_models",
+  "info": {
+    "displayName": "financeModel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "villaTitle": {
+      "type": "string",
+      "required": true
+    },
+    "dailyRevenueTable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.finance-table-row"
+    },
+    "monthlyRevenueTable": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.finance-table-row"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_project_villas",
+  "info": {
+    "displayName": "Villa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "parameters": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.villa-parameter"
+    }
+  }
+}

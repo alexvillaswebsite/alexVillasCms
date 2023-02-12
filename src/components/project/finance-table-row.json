@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_project_finance_table_rows",
+  "info": {
+    "displayName": "FinanceTableRow"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "revenue": {
+      "type": "string",
+      "required": true
+    },
+    "roi": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

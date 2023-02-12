@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "airbnbs",
+  "info": {
+    "singularName": "airbnb",
+    "pluralName": "airbnbs",
+    "displayName": "Airbnb"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "objectUrl": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
