@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "airbnbs",
   "info": {
     "singularName": "airbnb",
@@ -11,17 +11,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "objectUrl": {
-      "type": "string",
-      "required": true
-    },
-    "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
+    "object": {
+      "displayName": "airbnbObject",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.airbnb-object"
     }
   }
 }

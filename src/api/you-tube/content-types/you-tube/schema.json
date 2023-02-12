@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "you_tubes",
+  "info": {
+    "singularName": "you-tube",
+    "pluralName": "you-tubes",
+    "displayName": "YouTube",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "youtubeUrls": {
+      "displayName": "YouTubeUrl",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.you-tube-url"
+    }
+  }
+}

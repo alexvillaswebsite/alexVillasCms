@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * youtube controller
+ * you-tube controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::youtube.youtube');
+module.exports = createCoreController('api::you-tube.you-tube');

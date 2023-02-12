@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_airbnb_objects",
+  "info": {
+    "displayName": "airbnbObject"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string",
+      "required": true
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

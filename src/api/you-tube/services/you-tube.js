@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * youtube service
+ * you-tube service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::youtube.youtube');
+module.exports = createCoreService('api::you-tube.you-tube');

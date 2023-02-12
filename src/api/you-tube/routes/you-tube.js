@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * youtube router
+ * you-tube router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::youtube.youtube');
+module.exports = createCoreRouter('api::you-tube.you-tube');

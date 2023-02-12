@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_you_tube_urls",
+  "info": {
+    "displayName": "YouTubeUrl",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "youtubeUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
