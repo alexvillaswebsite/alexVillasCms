@@ -17,6 +17,9 @@
       "type": "component",
       "repeatable": true,
       "component": "project.hero-advantages-item"
+    },
+    "titleBottom": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "bali_galleries",
+  "info": {
+    "singularName": "bali-gallery",
+    "pluralName": "bali-galleries",
+    "displayName": "Bali Gallery"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
