@@ -16,7 +16,7 @@
     }
   },
   "attributes": {
-    "object": {
+    "objects": {
       "displayName": "mapObject",
       "type": "component",
       "repeatable": true,
