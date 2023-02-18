@@ -47,16 +47,6 @@
         }
       }
     },
-    "onSale": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "boolean",
-      "default": true,
-      "required": true
-    },
     "location": {
       "pluginOptions": {
         "i18n": {
@@ -156,6 +146,21 @@
         }
       },
       "component": "project.hero"
+    },
+    "status": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "onSale",
+        "comingSoon",
+        "soldOut"
+      ],
+      "required": true,
+      "default": "onSale"
     }
   }
 }

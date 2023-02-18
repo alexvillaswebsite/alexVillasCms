@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "maps",
+  "info": {
+    "singularName": "map",
+    "pluralName": "maps",
+    "displayName": "Map",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "object": {
+      "displayName": "mapObject",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.map-object"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_section_why_balis",
+  "info": {
+    "displayName": "WhyBali",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "advantages": {
+      "displayName": "WhyBaliAdvantages",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.why-bali-advantages"
+    }
+  }
+}

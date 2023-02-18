@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_why_bali_list_items",
+  "info": {
+    "displayName": "WhyBaliListItem",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "good": {
+      "type": "boolean"
+    }
+  }
+}

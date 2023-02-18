@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_section_communities",
+  "info": {
+    "displayName": "community"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

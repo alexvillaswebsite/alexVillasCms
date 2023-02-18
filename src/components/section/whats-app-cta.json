@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_whats_app_ctas",
+  "info": {
+    "displayName": "WhatsAppCta"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "buttonLabel": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

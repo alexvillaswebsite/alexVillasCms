@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_section_why_alex_items",
+  "info": {
+    "displayName": "WhyAlex",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

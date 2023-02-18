@@ -20,6 +20,10 @@
     },
     "titleBottom": {
       "type": "string"
+    },
+    "linkLabel": {
+      "type": "string",
+      "required": true
     }
   }
 }

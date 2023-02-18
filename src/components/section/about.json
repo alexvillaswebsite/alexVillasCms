@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_section_abouts",
+  "info": {
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext"
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

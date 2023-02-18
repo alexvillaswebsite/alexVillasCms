@@ -1,0 +1,53 @@
+{
+  "collectionName": "components_shared_map_objects",
+  "info": {
+    "displayName": "mapObject",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "lat": {
+      "type": "float",
+      "required": true
+    },
+    "lng": {
+      "type": "float"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "location",
+        "complex"
+      ],
+      "required": true
+    },
+    "propertyList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "project.property-list"
+    }
+  }
+}
