@@ -22,10 +22,6 @@
         "videos"
       ]
     },
-    "linkText": {
-      "type": "string",
-      "required": true
-    },
     "titleBottom": {
       "type": "string"
     },
