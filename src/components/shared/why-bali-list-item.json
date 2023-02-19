@@ -11,7 +11,9 @@
       "required": true
     },
     "good": {
-      "type": "boolean"
+      "type": "boolean",
+      "default": true,
+      "required": true
     }
   }
 }

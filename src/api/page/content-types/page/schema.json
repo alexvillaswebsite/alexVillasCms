@@ -173,6 +173,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "whatsapp": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.whats-app-cta"
     }
   }
 }
