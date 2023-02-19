@@ -155,16 +155,6 @@
       },
       "component": "section.community"
     },
-    "review": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "section.review"
-    },
     "slug": {
       "pluginOptions": {
         "i18n": {
