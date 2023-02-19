@@ -18,7 +18,8 @@
       "required": true
     },
     "lng": {
-      "type": "float"
+      "type": "float",
+      "required": true
     },
     "icon": {
       "type": "media",
@@ -31,7 +32,7 @@
     "image": {
       "type": "media",
       "multiple": true,
-      "required": false,
+      "required": true,
       "allowedTypes": [
         "images"
       ]
