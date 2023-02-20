@@ -1,18 +1,16 @@
 {
   "collectionName": "components_section_alex_villas_backs",
   "info": {
-    "displayName": "AlexVillasBack"
+    "displayName": "AlexVillasBack",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "firstTextBlock": {
+    "firstText": {
       "type": "richtext",
       "required": true
     },
-    "secondTextBlock": {
-      "type": "richtext"
-    },
-    "thirdTextBlock": {
+    "secondText": {
       "type": "richtext"
     },
     "promos": {
