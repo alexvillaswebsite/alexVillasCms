@@ -27,18 +27,16 @@
         }
       }
     },
-    "gallery": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
+    "partners": {
+      "displayName": "Partners",
+      "type": "component",
+      "repeatable": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "shared.partners"
     }
   }
 }
