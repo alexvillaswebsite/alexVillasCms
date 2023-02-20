@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_section_alex_villas_backs",
+  "info": {
+    "displayName": "AlexVillasBack"
+  },
+  "options": {},
+  "attributes": {
+    "firstTextBlock": {
+      "type": "richtext",
+      "required": true
+    },
+    "secondTextBlock": {
+      "type": "richtext"
+    },
+    "thirdTextBlock": {
+      "type": "richtext"
+    },
+    "promos": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.why-alex-item"
+    }
+  }
+}

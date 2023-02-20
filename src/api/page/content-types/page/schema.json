@@ -173,6 +173,16 @@
         }
       },
       "component": "section.whats-app-cta"
+    },
+    "alexVillasBack": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.alex-villas-back"
     }
   }
 }
