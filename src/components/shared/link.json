@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_links",
+  "info": {
+    "displayName": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "string",
+      "required": true
+    },
+    "places": {
+      "displayName": "LinkPlaces",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link-places"
+    },
+    "subLinks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.sub-links"
+    }
+  }
+}

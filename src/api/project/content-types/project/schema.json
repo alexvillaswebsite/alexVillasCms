@@ -118,16 +118,6 @@
       "component": "project.faq",
       "required": false
     },
-    "mapPosition": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "project.map-position"
-    },
     "hero": {
       "type": "component",
       "repeatable": false,

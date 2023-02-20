@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_link_places",
+  "info": {
+    "displayName": "LinkPlaces",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "place": {
+      "type": "string"
+    }
+  }
+}
