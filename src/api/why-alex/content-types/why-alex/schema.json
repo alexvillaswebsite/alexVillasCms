@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "why_alexes",
+  "info": {
+    "singularName": "why-alex",
+    "pluralName": "why-alexes",
+    "displayName": "WhyAlex",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "displayName": "WhyAlexItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.why-alex-item"
+    },
+    "gallery": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

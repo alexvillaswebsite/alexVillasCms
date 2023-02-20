@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_principle_items",
+  "info": {
+    "displayName": "PrincipleItem"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

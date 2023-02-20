@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_why_alex_items",
+  "info": {
+    "displayName": "WhyAlexItem"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
