@@ -183,6 +183,17 @@
         }
       },
       "component": "section.alex-villas-back"
+    },
+    "whatsApp": {
+      "displayName": "WhatsApp",
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.whats-app"
     }
   }
 }
