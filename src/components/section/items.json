@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_section_items",
+  "info": {
+    "displayName": "items"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "Cheks": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.check-mark"
+    }
+  }
+}

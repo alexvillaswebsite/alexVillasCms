@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_section_check_marks",
+  "info": {
+    "displayName": "Check Mark"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
