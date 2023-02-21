@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_lines",
+  "info": {
+    "displayName": "Lines"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "firstValue": {
+      "type": "string",
+      "required": true
+    },
+    "secondValue": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
