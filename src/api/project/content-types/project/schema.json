@@ -169,6 +169,16 @@
         }
       },
       "component": "section.alex-villas-back"
+    },
+    "Plash": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.why-alex-item"
     }
   }
 }
