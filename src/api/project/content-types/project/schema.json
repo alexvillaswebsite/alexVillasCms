@@ -192,6 +192,16 @@
       },
       "component": "project.complex-plan",
       "required": false
+    },
+    "Property": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.property-gallery"
     }
   }
 }
