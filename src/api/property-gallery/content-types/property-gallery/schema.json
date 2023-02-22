@@ -4,18 +4,28 @@
   "info": {
     "singularName": "property-gallery",
     "pluralName": "property-galleries",
-    "displayName": "Property Gallery"
+    "displayName": "Property Gallery",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "propertyGallerys": {
       "displayName": "PropertyGallery",
       "type": "component",
       "repeatable": true,
-      "component": "shared.property-gallery"
+      "component": "shared.property-gallery",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
