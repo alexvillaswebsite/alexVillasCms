@@ -178,7 +178,8 @@
           "localized": true
         }
       },
-      "component": "section.why-alex-item"
+      "component": "section.why-alex-item",
+      "required": true
     }
   }
 }
