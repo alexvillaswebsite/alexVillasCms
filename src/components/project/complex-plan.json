@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_project_complex_plans",
+  "info": {
+    "displayName": "ComplexPlan"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "Plan": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "RoomsComplex": {
+      "displayName": "Rooms",
+      "type": "component",
+      "repeatable": true,
+      "component": "project.rooms"
+    }
+  }
+}

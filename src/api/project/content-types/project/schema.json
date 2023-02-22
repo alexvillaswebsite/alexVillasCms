@@ -180,6 +180,18 @@
       },
       "component": "section.why-alex-item",
       "required": true
+    },
+    "ComplexPlan": {
+      "displayName": "ComplexPlan",
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "project.complex-plan",
+      "required": false
     }
   }
 }
