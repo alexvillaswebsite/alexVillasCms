@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_description_values",
+  "info": {
+    "displayName": "DescriptionValue"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "Text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
