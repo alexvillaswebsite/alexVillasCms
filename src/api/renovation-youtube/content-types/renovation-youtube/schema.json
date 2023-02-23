@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "renovation_youtubes",
+  "info": {
+    "singularName": "renovation-youtube",
+    "pluralName": "renovation-youtubes",
+    "displayName": "Renovation Youtube"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "YouTubeUrl": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.you-tube-url"
+    }
+  }
+}
