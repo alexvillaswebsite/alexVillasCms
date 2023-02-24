@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_jobs",
+  "info": {
+    "displayName": "Jobs"
+  },
+  "options": {},
+  "attributes": {
+    "Job": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
