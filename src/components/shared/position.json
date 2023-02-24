@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_shared_positions",
+  "info": {
+    "displayName": "position"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

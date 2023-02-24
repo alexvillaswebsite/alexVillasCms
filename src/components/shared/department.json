@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_shared_departments",
+  "info": {
+    "displayName": "Department"
+  },
+  "options": {},
+  "attributes": {
+    "position": {
+      "displayName": "position",
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.position"
+    }
+  }
+}
