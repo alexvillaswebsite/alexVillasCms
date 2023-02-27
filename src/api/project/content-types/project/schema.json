@@ -179,7 +179,7 @@
         }
       },
       "component": "section.why-alex-item",
-      "required": true
+      "required": false
     },
     "ComplexPlan": {
       "displayName": "ComplexPlan",
@@ -204,20 +204,20 @@
       "component": "shared.property-gallery"
     },
     "formImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
       ],
-      "type": "media",
-      "multiple": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     }
   }
 }
