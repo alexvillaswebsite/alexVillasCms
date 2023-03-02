@@ -72,16 +72,6 @@
         }
       }
     },
-    "principle": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "section.5-principles"
-    },
     "renovation": {
       "type": "component",
       "repeatable": false,
