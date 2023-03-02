@@ -1,24 +1,24 @@
-module.exports = [
-  'strapi::errors',
-  'strapi::cors',
-  'strapi::poweredBy',
-  'strapi::logger',
-  'strapi::query',
-  'strapi::body',
-  'strapi::session',
-  'strapi::favicon',
-  'strapi::public',
+module.exports = ({ env }) => [
+  "strapi::errors",
+
   {
-    name: 'strapi::security',
+    name: "strapi::security",
     config: {
       contentSecurityPolicy: {
         directives: {
-          'connect-src': ["'self'", 'https:'],
-          'img-src': ["'self'", 'data:', 'blob:', `${DO_SPACE_CDN}`],
-          'media-src': ["'self'", 'data:', 'blob:', `${DO_SPACE_CDNL}`],
-          upgradeInsecureRequests: null,
+          'connect-src': ['self', 'http:', env("DO_SPACE_CDN")],
+          'img-src': ['self', 'data:', 'blob:', , env("DO_SPACE_CDN"), 'https://admin.alex.villas/'],
+
         },
       },
     },
   },
+  "strapi::cors",
+  "strapi::poweredBy",
+  "strapi::logger",
+  "strapi::query",
+  "strapi::body",
+  "strapi::session",
+  "strapi::favicon",
+  "strapi::public",
 ];
