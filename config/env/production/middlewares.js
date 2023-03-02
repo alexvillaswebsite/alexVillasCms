@@ -7,8 +7,8 @@ module.exports = ({ env }) => [
       contentSecurityPolicy: {
         directives: {
           'connect-src': ['self', 'http:', env("DO_SPACE_CDN")],
-          'img-src': ['self', 'data:', 'blob:', , env("DO_SPACE_CDN"), 'https://admin.alex.villas/'],
-
+          'img-src': ['self', 'data:', 'blob:', env("DO_SPACE_CDN"), 'https://admin.alex.villas/'],
+          'media-src': ["'self'", 'data:', 'blob:', env("DO_SPACE_CDN")]
         },
       },
     },
