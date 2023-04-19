@@ -26,14 +26,6 @@
         }
       },
       "component": "shared.map-object"
-    },
-    "link": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
     }
   }
 }
