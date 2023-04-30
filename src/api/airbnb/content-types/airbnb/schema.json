@@ -10,17 +10,31 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "objects": {
       "displayName": "airbnbObject",
       "type": "component",
       "repeatable": true,
-      "component": "shared.airbnb-object"
+      "component": "shared.airbnb-object",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "airbnbLink": {
       "type": "string",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

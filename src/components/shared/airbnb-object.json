@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_airbnb_objects",
   "info": {
-    "displayName": "airbnbObject"
+    "displayName": "airbnbObject",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -10,12 +11,22 @@
       "required": true
     },
     "thumbnail": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": true
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "location": {
+      "type": "string",
+      "required": false
+    },
+    "bedrooms": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
     }
   }
 }
