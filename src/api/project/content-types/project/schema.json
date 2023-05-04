@@ -218,6 +218,15 @@
           "localized": true
         }
       }
+    },
+    "position": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "biginteger",
+      "required": true
     }
   }
 }
