@@ -10,6 +10,7 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@_sh/strapi-plugin-ckeditor": "^2.0.4",
     "@strapi/plugin-i18n": "4.6.1",
     "@strapi/plugin-seo": "^1.7.7",
     "@strapi/plugin-users-permissions": "4.6.1",
@@ -18,7 +19,7 @@
     "pg": "^8.9.0",
     "pg-connection-string": "^2.5.0",
     "strapi-plugin-duplicate-button": "^1.1.7",
-    "strapi-plugin-placeholder": "^4.3.6",
+    "strapi-plugin-placeholder": "^4.4.0",
     "strapi-plugin-plausible": "^1.0.5",
     "strapi-plugin-populate-deep": "^2.0.0",
     "strapi-plugin-rest-cache": "^4.2.6",
@@ -33,7 +34,7 @@
     "uuid": "32d8012d-59d4-4f8b-bf9f-0deade28722e"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
