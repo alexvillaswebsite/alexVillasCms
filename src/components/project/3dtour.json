@@ -1,12 +1,17 @@
 {
   "collectionName": "components_project_3dtours",
   "info": {
-    "displayName": "3dtour"
+    "displayName": "3dtour",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "tour": {
       "type": "text",
+      "required": true
+    },
+    "title": {
+      "type": "string",
       "required": true
     }
   }
