@@ -227,6 +227,16 @@
       },
       "type": "biginteger",
       "required": true
+    },
+    "tours": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "component": "project.3dtour"
     }
   }
 }
