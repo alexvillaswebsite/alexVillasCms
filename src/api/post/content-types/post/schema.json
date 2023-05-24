@@ -63,7 +63,7 @@
       },
       "type": "customField",
       "options": {
-        "preset": "toolbar"
+        "preset": "toolbarBaloon"
       },
       "customField": "plugin::ckeditor5.CKEditor"
     },
