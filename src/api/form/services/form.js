@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * partner service
+ * form service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::partner.partner');
+module.exports = createCoreService('api::form.form');

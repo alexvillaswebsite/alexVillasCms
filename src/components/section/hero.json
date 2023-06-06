@@ -33,11 +33,6 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.text"
-    },
-    "fields": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.form-field"
     }
   }
 }

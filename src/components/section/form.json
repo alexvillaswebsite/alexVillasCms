@@ -32,12 +32,6 @@
     },
     "description": {
       "type": "text"
-    },
-    "fields": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.form-field",
-      "required": true
     }
   }
 }
