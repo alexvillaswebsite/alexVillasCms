@@ -28,6 +28,16 @@
     "linkLabel": {
       "type": "string",
       "required": true
+    },
+    "bullets": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+    "fields": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.form-field"
     }
   }
 }

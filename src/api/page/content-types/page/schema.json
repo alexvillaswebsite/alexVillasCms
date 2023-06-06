@@ -35,19 +35,6 @@
       },
       "component": "section.hero"
     },
-    "logo": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "seo": {
       "type": "component",
       "repeatable": false,
@@ -81,19 +68,6 @@
         }
       },
       "component": "section.renovation"
-    },
-    "formImage": {
-      "type": "media",
-      "multiple": false,
-      "required": false,
-      "allowedTypes": [
-        "images"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      }
     },
     "about": {
       "type": "component",

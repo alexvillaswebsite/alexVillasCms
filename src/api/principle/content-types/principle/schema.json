@@ -4,7 +4,8 @@
   "info": {
     "singularName": "principle",
     "pluralName": "principles",
-    "displayName": "Principle"
+    "displayName": "Principle",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -26,6 +27,15 @@
       },
       "component": "shared.principle-item",
       "required": false
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
+      "required": true
     }
   }
 }

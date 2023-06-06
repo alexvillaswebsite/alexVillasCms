@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_section_you_tubes",
+  "info": {
+    "displayName": "YouTube",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "linkLable": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.text"
+    },
+    "youtubeUrls": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.you-tube-url",
+      "required": true
+    },
+    "linkUrl": {
+      "type": "string"
+    }
+  }
+}

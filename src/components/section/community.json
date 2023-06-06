@@ -1,12 +1,28 @@
 {
   "collectionName": "components_section_communities",
   "info": {
-    "displayName": "community"
+    "displayName": "community",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "text": {
-      "type": "richtext"
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "linkLabel": {
+      "type": "string",
+      "required": false
+    },
+    "linkUrl": {
+      "type": "string"
     }
   }
 }

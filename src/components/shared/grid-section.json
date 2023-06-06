@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_shared_grid_sections",
+  "info": {
+    "displayName": "Grid Section"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonLabel": {
+      "type": "string"
+    }
+  }
+}

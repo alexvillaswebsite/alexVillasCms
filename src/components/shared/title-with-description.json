@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_title_with_descriptions",
+  "info": {
+    "displayName": "Title with description"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
