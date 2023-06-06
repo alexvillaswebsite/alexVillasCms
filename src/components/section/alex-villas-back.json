@@ -17,6 +17,20 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.why-alex-item"
+    },
+    "firstColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "secondColumn": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

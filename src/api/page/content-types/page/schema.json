@@ -59,16 +59,6 @@
         }
       }
     },
-    "renovation": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "component": "section.renovation"
-    },
     "about": {
       "type": "component",
       "repeatable": false,
@@ -98,16 +88,6 @@
         }
       },
       "component": "section.why-bali-country"
-    },
-    "whyAlex": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "section.why-alex-item"
     },
     "community": {
       "type": "component",
@@ -147,6 +127,76 @@
         }
       },
       "component": "section.alex-villas-back"
+    },
+    "facts": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.title-with-description"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.form"
+    },
+    "projectsOnTheMap": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section"
+    },
+    "projectsOnSale": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section"
+    },
+    "ourCases": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section"
+    },
+    "investmentsInSublease": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section"
+    },
+    "villasForRent": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.section"
     }
   }
 }
