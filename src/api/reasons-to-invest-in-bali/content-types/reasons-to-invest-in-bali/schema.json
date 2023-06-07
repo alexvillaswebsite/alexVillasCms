@@ -4,7 +4,8 @@
   "info": {
     "singularName": "reasons-to-invest-in-bali",
     "pluralName": "reasons-to-invest-in-balis",
-    "displayName": "Reasons to invest in Bali"
+    "displayName": "Reasons to invest in Bali",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -91,6 +92,14 @@
         }
       },
       "component": "shared.text"
+    },
+    "notice": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
