@@ -4,7 +4,8 @@
   "info": {
     "singularName": "what-get-investor",
     "pluralName": "what-get-investors",
-    "displayName": "WhatGetInvestor"
+    "displayName": "WhatGetInvestor",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,7 +16,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "pluginOptions": {
         "i18n": {
           "localized": true

@@ -1,11 +1,12 @@
 {
   "collectionName": "components_project_complex_plans",
   "info": {
-    "displayName": "ComplexPlan"
+    "displayName": "ComplexPlan",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
@@ -13,17 +14,18 @@
       "type": "string",
       "required": true
     },
-    "Plan": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "RoomsComplex": {
+    "availableComplexes": {
       "displayName": "Rooms",
       "type": "component",
       "repeatable": true,

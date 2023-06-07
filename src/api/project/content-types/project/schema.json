@@ -181,7 +181,7 @@
       "component": "section.why-alex-item",
       "required": false
     },
-    "ComplexPlan": {
+    "complexPlan": {
       "displayName": "ComplexPlan",
       "type": "component",
       "repeatable": false,
@@ -203,22 +203,6 @@
       },
       "component": "shared.property-gallery"
     },
-    "formImage": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "position": {
       "pluginOptions": {
         "i18n": {
@@ -237,6 +221,16 @@
         }
       },
       "component": "project.3dtour"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.form"
     }
   }
 }
