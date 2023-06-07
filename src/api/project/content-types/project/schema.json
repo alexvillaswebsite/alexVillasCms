@@ -230,7 +230,7 @@
           "localized": true
         }
       },
-      "component": "shared.form"
+      "component": "section.form"
     }
   }
 }
