@@ -4,7 +4,8 @@
   "info": {
     "singularName": "renovation-youtube",
     "pluralName": "renovation-youtubes",
-    "displayName": "Renovation Youtube"
+    "displayName": "Renovation Youtube",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,10 @@
       "type": "component",
       "repeatable": true,
       "component": "shared.you-tube-url"
+    },
+    "title": {
+      "type": "string",
+      "required": true
     }
   }
 }

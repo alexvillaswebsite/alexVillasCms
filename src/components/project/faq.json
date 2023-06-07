@@ -13,6 +13,13 @@
     "answer": {
       "type": "richtext",
       "required": true
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "toolbarBaloon"
+      },
+      "customField": "plugin::ckeditor5.CKEditor"
     }
   }
 }

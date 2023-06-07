@@ -6,18 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "firstText": {
-      "type": "richtext",
-      "required": true
-    },
-    "secondText": {
-      "type": "richtext"
-    },
-    "promos": {
-      "type": "component",
-      "repeatable": true,
-      "component": "shared.why-alex-item"
-    },
     "firstColumn": {
       "type": "customField",
       "options": {
