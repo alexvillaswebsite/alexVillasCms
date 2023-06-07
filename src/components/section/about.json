@@ -18,12 +18,16 @@
         "images"
       ]
     },
-    "desc": {
+    "content": {
       "type": "customField",
       "options": {
         "preset": "toolbarBaloon"
       },
       "customField": "plugin::ckeditor5.CKEditor"
+    },
+    "title": {
+      "type": "string",
+      "required": false
     }
   }
 }
