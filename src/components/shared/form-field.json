@@ -20,7 +20,7 @@
       ],
       "required": true
     },
-    "placeholder": {
+    "label": {
       "type": "string",
       "required": true
     },

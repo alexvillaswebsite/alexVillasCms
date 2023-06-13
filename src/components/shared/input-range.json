@@ -1,11 +1,12 @@
 {
   "collectionName": "components_shared_input_ranges",
   "info": {
-    "displayName": "Input Range"
+    "displayName": "Input Range",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Placeholder": {
+    "label": {
       "type": "string",
       "required": true
     },
