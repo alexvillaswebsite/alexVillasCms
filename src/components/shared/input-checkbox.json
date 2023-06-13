@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_input_checkboxes",
+  "info": {
+    "displayName": "Input Checkbox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "placeholder": {
+      "type": "string",
+      "required": true
+    },
+    "defaultChecked": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,7 +1,8 @@
 {
   "collectionName": "components_shared_form_fields",
   "info": {
-    "displayName": "Form field"
+    "displayName": "Input Text",
+    "description": ""
   },
   "options": {},
   "attributes": {
