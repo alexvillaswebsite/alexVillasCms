@@ -25,7 +25,9 @@
       "default": 10
     },
     "defaultValue": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "default": 0
     }
   }
 }
